@@ -24,6 +24,10 @@ public class Solution {
 	 showMessageForFishes(shark);
 	 Clownfish clownfish = new Clownfish("small", "Orange", false, true);
 	 showMessageForFishes(clownfish);
+	 ButterFly butterfly = new ButterFly();
+	 butterfly.fly();butterfly.sing();
+	 Caterpillar caterpillar = new Caterpillar();
+	 caterpillar.fly();caterpillar.walk();
 	 }
 	 
 	 private static void showMessageForFishes(Fish fish) {
